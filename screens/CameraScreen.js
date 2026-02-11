@@ -123,8 +123,8 @@ export default function CameraScreen({ route }) {
   //     }
   //   };
   AWS.config.update({
-    accessKeyId: "AKIAQ3EGWHSN7TLK4P6L",
-    secretAccessKey: "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",
+    accessKeyId: "AWS_KEY",
+    secretAccessKey: "AWS_PASS",
     region: "ap-south-1",
   });
   const s3 = new AWS.S3();
